@@ -30,7 +30,6 @@ function bothInFib(a, b) {
       const [num1, num2] = numbers.split(",").map((e) => +e);
 
       if (num1 >= num2) {
-        console.log("YOU SUCK, BOZO");
         console.log("Numbers are not in asc order!");
         resolve(false);
         return;
